@@ -1,0 +1,6 @@
+{
+  "name": "Toxic Desktop",
+  "description": "An all-in-one web desktop environment featuring an extensive arcade games catalog, Toxify music player, web search engine & code runner, and customizable tab cloaker.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
