@@ -15,8 +15,18 @@
     <link id="dynamic-favicon" rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2310b981'><path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/></svg>" />
   </head>
   <body class="bg-black text-slate-100 overflow-hidden select-none">
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <div id="root">
+      <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; height:100vh; background:#070b0e; color:#10b981; font-family:sans-serif;">
+        <div style="font-family:'Pacifico',cursive,sans-serif; font-size:40px; margin-bottom:12px; text-shadow:0 0 15px rgba(16,185,129,0.5);">toxic</div>
+        <div style="font-size:13px; color:#94a3b8; letter-spacing:1px;">INITIALIZING DESKTOP...</div>
+      </div>
+    </div>
+    <noscript>
+      <div style="padding:20px; text-align:center; color:#ef4444; background:#0f172a; height:100vh;">
+        JavaScript is required to launch Toxic Desktop. Please enable JavaScript in your browser settings.
+      </div>
+    </noscript>
+    <script type="module" src="./src/main.tsx"></script>
   </body>
 </html>
 
